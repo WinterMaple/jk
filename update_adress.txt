@@ -1,0 +1,10 @@
+alter database rename file '/opt/oracle/app/oradata/orcl/sysaux01.dbf' to '/ssd750/oracle/oradata/sysaux01.dbf';
+alter database rename file '/opt/oracle/app/oradata/orcl/system01.dbf' to '/ssd750/oracle/oradata/system01.dbf';
+alter database rename file '/opt/oracle/app/oradata/orcl/undotbs01.dbf' to '/ssd750/oracle/oradata/undotbs01.dbf';
+alter database rename file '/opt/oracle/app/oradata/orcl/users01.dbf' to '/ssd750/oracle/oradata/users01.dbf';
+alter database rename file '/home/oracle/oradata/pcoredata.dbf' to '/ssd750/oracle/oradata/pcoredata.dbf';
+alter database rename file '/home/oracle/oradata/pcoredata1.dbf' to '/ssd750/oracle/oradata/pcoredata1.dbf';
+alter database rename file '/home/oracle/oradata/pcoredata2.dbf' to '/ssd750/oracle/oradata/pcoredata2.dbf';
+alter database rename file '/home/oracle/oradata/pcoredata3.dbf' to '/ssd750/oracle/oradata/pcoredata3.dbf';
+alter database rename file '/home/oracle/oradata/pcoredata4.dbf' to '/ssd750/oracle/oradata/pcoredata4.dbf';
+
